@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="mySuite" parallel="methods" thread-count="3">
+
+    <parameter name="myName" value="Gina" />
+
+    <test name="myTests">
+        <classes>
+
+            <class name="pokemon.SearchPokemonGoTest" />
+        </classes>
+    </test>
+
+</suite>

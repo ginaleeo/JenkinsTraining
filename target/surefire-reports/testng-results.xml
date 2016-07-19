@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="mySuite" duration-ms="9849" started-at="2016-07-19T15:05:03Z" finished-at="2016-07-19T15:05:13Z">
+    <groups>
+    </groups>
+    <test name="myTests" duration-ms="9849" started-at="2016-07-19T15:05:03Z" finished-at="2016-07-19T15:05:13Z">
+      <class name="pokemon.SearchPokemonGoTest">
+        <test-method status="PASS" signature="PokemonGo(java.lang.String, java.lang.String)[pri:0, instance:pokemon.SearchPokemonGoTest@4411d970]" name="PokemonGo" duration-ms="5087" started-at="2016-07-19T11:05:03Z" data-provider="myTest" finished-at="2016-07-19T11:05:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pokemon Go]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PokemonGo -->
+        <test-method status="PASS" signature="PokemonGo(java.lang.String, java.lang.String)[pri:0, instance:pokemon.SearchPokemonGoTest@4411d970]" name="PokemonGo" duration-ms="4750" started-at="2016-07-19T11:05:08Z" data-provider="myTest" finished-at="2016-07-19T11:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apple]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PokemonGo -->
+      </class> <!-- pokemon.SearchPokemonGoTest -->
+    </test> <!-- myTests -->
+  </suite> <!-- mySuite -->
+</testng-results>
