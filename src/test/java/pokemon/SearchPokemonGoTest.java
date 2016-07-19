@@ -17,7 +17,7 @@ public class SearchPokemonGoTest {
     public Object[][] createData(){
         return new Object[][]{
                 {"Pokemon Go", "http://www.google.com"},
-                {"Pokemon Go Egg Chart", "http://www.google.com"}
+                {"Pokemon Go Egg Chart", "http://www.google.com"},
                 {"Pokemon Go reddit", "http://www.google.com"}
         };
     }
